@@ -1,0 +1,15 @@
+.DS_Store
+*.sqlite
+*.env*
+
+__pycache__
+.idea
+*.iml
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.elasticbeanstalk
+
+*.pyc
