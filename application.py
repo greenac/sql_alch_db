@@ -29,7 +29,6 @@ else:
 
     db = SQLAlchemy(app)
 
-    main_eng = database.engine(database.DataBaseType.main)
     connector = database.MainDbConnector()
     session = connector.new_session()
 

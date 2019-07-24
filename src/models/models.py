@@ -16,6 +16,6 @@ def setup_models(Base):
         __bind_key__ = DataBaseType.ml.value
 
         id = Column(Integer, primary_key=True)
-        username = Column(String(80), unique=True)
+        type = Column(String(80), unique=True)
 
     AppModels[ModelType.feature] = Feature
